@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: URL("bg.jpeg");
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(240, 240, 240, 0.8);
+  width: 300px;
+  height: 550px;
+}
+
+.container h1 {
+  font-family: "Dancing Script", cursive;
+}
+
+.container h4 {
+  font-family: "Comic Sans MS", cursive;
+}
+
+.container p {
+  font-family: "Poppins", cursive;
+}
+
+.contaniner h1,
+strong {
+  color: #ff76dc;
+}
+
+.container img {
+  width: 150px;
+}
